@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://beprs432thken"]
+
+[ext_resource type="Script" uid="uid://cyfl4e822108c" path="res://first_scene.gd" id="1_5qpg1"]
+[ext_resource type="Texture2D" uid="uid://d04aeigorso2u" path="res://icon.svg" id="1_y5rs1"]
+[ext_resource type="PackedScene" uid="uid://bkkxr7rr8eswh" path="res://exercise_stick_figure.tscn" id="2_5qpg1"]
+
+[node name="FirstScene" type="Node2D" unique_id=971520500]
+script = ExtResource("1_5qpg1")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=522348545]
+modulate = Color(1, 0, 0.38431373, 1)
+position = Vector2(199, 280)
+texture = ExtResource("1_y5rs1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=242726745]
+position = Vector2(188, 477)
+texture = ExtResource("1_y5rs1")
+
+[node name="ExerciseStickFigure" parent="." unique_id=1856110968 instance=ExtResource("2_5qpg1")]
+position = Vector2(710, 236)

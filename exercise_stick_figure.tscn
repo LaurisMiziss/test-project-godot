@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://bkkxr7rr8eswh"]
+
+[ext_resource type="Texture2D" uid="uid://d04aeigorso2u" path="res://icon.svg" id="1_jq8oa"]
+
+[node name="ExerciseStickFigure" type="Node2D" unique_id=1856110968]
+scale = Vector2(0.345, 0.345)
+
+[node name="Head" type="Sprite2D" parent="." unique_id=406978202]
+position = Vector2(-6, -126)
+texture = ExtResource("1_jq8oa")
+
+[node name="Torso" type="Sprite2D" parent="." unique_id=254163771]
+position = Vector2(0, 231)
+scale = Vector2(1.5390625, 4.7734375)
+texture = ExtResource("1_jq8oa")
+
+[node name="RLeg" type="Sprite2D" parent="." unique_id=1847243407]
+position = Vector2(-54.999985, 711)
+scale = Vector2(0.4375, 2.90625)
+texture = ExtResource("1_jq8oa")
+
+[node name="LLeg" type="Sprite2D" parent="." unique_id=1825595682]
+position = Vector2(55, 711)
+scale = Vector2(0.4375, 2.90625)
+texture = ExtResource("1_jq8oa")
+
+[node name="LArm1" type="Sprite2D" parent="." unique_id=1178722107]
+position = Vector2(179.00003, -5.999981)
+rotation = 0.37524575
+scale = Vector2(1.8671876, 0.25)
+texture = ExtResource("1_jq8oa")
+
+[node name="LArm2" type="Sprite2D" parent="." unique_id=1357656927]
+position = Vector2(391, 20.00001)
+rotation = -0.15009831
+scale = Vector2(1.8671875, 0.25)
+texture = ExtResource("1_jq8oa")
+
+[node name="RArm1" type="Sprite2D" parent="." unique_id=1602240790]
+position = Vector2(-187, -7)
+rotation = -0.37524575
+scale = Vector2(1.8671876, 0.25)
+texture = ExtResource("1_jq8oa")
+
+[node name="RArm2" type="Sprite2D" parent="." unique_id=1113625211]
+position = Vector2(-397, 18.999989)
+rotation = 0.15009831
+scale = Vector2(1.8671875, 0.25)
+texture = ExtResource("1_jq8oa")
